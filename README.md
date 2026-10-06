@@ -177,3 +177,31 @@ Based on the analysis, the project identifies several areas for improvement:
 
 ```bash
 git clone https://github.com/TheVerma11/Amazon-Sales-Analysis.git
+cd Amazon-Sales-Analysis
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Open the Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Then open:
+
+```text
+Amazon Sales Analysis.ipynb
+```
+
+Run the notebook cells sequentially.
+
+### 4. Dataset
+
+The project uses `Amazon.csv`, which is included in the repository.
+
+> **Note:** The notebook also contains database-related operations using MySQL, PyMySQL, and SQLAlchemy. If you want to reproduce the MySQL workflow, configure your local MySQL environment accordingly.
